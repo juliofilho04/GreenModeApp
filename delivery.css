@@ -1,0 +1,218 @@
+* {
+    background-color: #A2BE9F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+body {
+    background-color: #A2BE9F;
+}
+
+#icones {
+    padding-top: 30px;
+    background-color: transparent;
+    display: flex;
+}
+
+#nav-grid {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+/* menu hamburguer */
+
+#icones .btn.btn-primary {
+    background-color: transparent;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+
+h4 {
+    margin: 0px;
+    padding: 10px;
+}
+/*final menu hamburguer*/
+
+#menu-preta {
+    margin-left: 10px;
+    background-color: transparent;
+    max-width: 35px;
+}
+
+#logo-preta {
+    background-color: transparent;
+    max-width: 75px;
+}
+
+#nome-logo-preta-2 {
+    background-color: transparent;
+    max-width: 500px;
+}
+
+#user-preta {
+    background-color: transparent;
+    max-width: 35px;
+}
+
+.botao-voltar {
+    width: 20px;
+    height: 20px;
+}
+
+#conteudo {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 1000px
+}
+
+#localizacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#localizacao p, strong {
+    font-size: 1.2rem;
+}
+
+.line {
+    border-top: 1px solid black;
+}
+
+hr {
+    height: 1px;
+    width: 200px; 
+}
+
+#info-produtos {
+    padding-top: 20px;
+    gap: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#produto {
+    border-radius: 20px;
+    background-color: #5DA253;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+#foto-produto {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 30px;
+}
+
+#grid-nome-valor {
+    background-color: transparent;
+    display: grid;
+    align-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#grid-nome-valor p {
+    background-color: transparent;
+}
+
+#nome-produto {
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+#endereço-info {
+    border-radius: 20px;
+    background-color: #A9A9A9;
+    display: grid;
+}
+
+#grid-nome-endereço {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+#grid-nome-endereço p{
+    background-color: transparent;
+}
+
+#endereço-text {
+    font-size: 0.8rem;
+}
+
+#endereço {
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#endereço p {
+    background-color: transparent;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+}
+
+#endereço img {
+    background-color: transparent;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+    max-width: 25px;
+}
+
+#button{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border: 0px;
+    padding-top: 20px;
+}
+
+#button button {
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#footer {
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    #logo-preta {
+        display: none;
+    }
+
+    #nome-logo-preta-2 {
+        width: 250px;
+    }
+
+    #conteudo {
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    #info-produtos {
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }
+}

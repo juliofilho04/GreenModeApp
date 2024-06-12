@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-css/bootstrap.css">
+    <link rel="stylesheet" href="finalizar.css">
+    <title>Finalizar - GREENMODE</title>
+</head>
+<body>
+
+    <header id="navbar">
+        <section id="icones">
+
+            <!-- menu hamburguer -->
+          <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="menu-preta" src="/img/finalizar/menu-preto.svg" alt="menu-preta"></button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <div class="btn-menu-preto">
+                      <a href="clothes.html"><h4 id="h4">Clothes</h4></a>
+                      <a href="shoes.html"><h4 id="h4">Shoes</h4></a> 
+                      <a href="acessories.html"><h4 id="h4">Acessories</h4></a> 
+                  </div>
+              </div>
+          </div>
+          <!-- término menu hamburguer -->
+
+            
+            <div id="nav-grid">
+                <a href="index.html"><img id="logo-preta" src="/img/finalizar/logo-preta.svg" alt="logo-preta"></a>
+                <img id="nome-logo-preta-2" src="/img/finalizar/nome-logo-preta2.svg" alt="nome-logo-preta-2"> 
+                <img id="user-preta" src="/img/finalizar/user-preto.svg" alt="user-preta">
+            </div>
+        </section>
+    </header>
+    <section id="conteudo">
+        <div id="localizacao">
+            <p>Basket</p>
+            <hr class="line"></hr>
+            <p>Delivery</p>
+            <hr class="line"></hr>
+            <strong>Payment</strong>
+        </div>
+        <a href="javascript:history.back()"><img class="botao-voltar" src="/img/carrinho/botao-voltar.svg" alt="botao-voltar"></a>
+        <div id="info-produtos">
+            <div>
+                <p>ALL ITENS</p>
+                <div id="produto">
+                    <img id="foto-produto" src="/img/finalizar/foto-produto.svg" alt="foto-produto">
+                    <div id="grid-nome-valor">
+                        <p id="nome-produto">T-SHIRT FUTURE OF FASHION</p>
+                        <p>00,00$</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>CHECKOUT</p>
+                <p>CARD DETAILS</p>
+                <div id="info">
+                    <div id="grid-info-cartao">
+                        <div>
+                            <p>Name on card</p>
+                            <p>000</p>
+                        </div>
+                        <div>
+                            <p>0000-0000-0000-0000</p>
+                            <p>00/00</p>
+                        </div>
+                    </div>
+                    <a href="payment.html"><img id="edit-icon" src="/img/finalizar/edit-icon.svg" alt="edit-icon"></a>
+                </div>
+
+                <p>ADDRESS</p>
+
+                <div id="info">
+                    <div id="grid-info-address">
+                        <div>
+                            <p>Recipient's Full Name</p>
+                            <p>Street Address</p>
+                        </div>
+                        <div>
+                            <p>Zip Code</p>
+                            <p>City.State</p>
+                        </div>
+                    </div>
+                    <a href="delivery.html"><img id="edit-icon" src="/img/finalizar/edit-icon.svg" alt="edit-icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="button">
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-primary" id="liveAlertBtn">Checkout</button>
+            <a href="status.html"><button type="button" class="btn btn-primary" id="liveAlertBtn">Status</button></a>
+        </div>
+
+    </section>
+    
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <script src="/script-js/bootstrap.min.js"></script>
+    <script src="/script-js/popper.min.js"></script>
+    <script src="/script-js/bootstrap.js"></script>
+    <script src="/script-js/script.js"></script>
+</body>
+</html>

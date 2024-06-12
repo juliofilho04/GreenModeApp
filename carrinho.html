@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-css/bootstrap.css">
+    <link rel="stylesheet" href="carrinho.css">
+    <title>Basket - GREENMODE</title>
+</head>
+<body>
+
+    <header id="navbar">
+        <section id="icones">
+
+            <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="menu-preta" src="/img/carrinho/menu-preto.svg" alt="menu-preta"></button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="btn-menu-preto">
+                        <a href="clothes.html"><h4 id="h4">Clothes</h4></a>
+                        <a href="shoes.html"><h4 id="h4">Shoes</h4></a> 
+                        <a href="acessories.html"><h4 id="h4">Acessories</h4></a> 
+                    </div>
+                </div>
+            </div>
+
+            <div id="nav-grid">
+                <a href="index.html"><img id="logo-preta" src="/img/carrinho/logo-preta.svg" alt="logo-preta"></a>
+                <img id="nome-logo-preta-2" src="/img/carrinho/nome-logo-preta2.svg" alt="nome-logo-preta-2"> 
+                <img id="user-preta" src="/img/carrinho/user-preto.svg" alt="user-preta">
+            </div>
+        </section>
+    </header>
+    <section id="conteudo">
+        <div id="localizacao">
+            <strong>Basket</strong>
+            <hr class="line"></hr>
+            <p>Delivery</p>
+            <hr class="line"></hr>
+            <p>Payment</p>
+        </div>
+        <a href="javascript:history.back()"><img class="botao-voltar" src="/img/carrinho/botao-voltar.svg" alt="botao-voltar"></a>
+        <div id="info-produtos">
+            <section>
+                <p>ALL ITENS</p>
+                <div>
+                    <div id="produto">
+                        <img id="foto-produto" src="/img/carrinho/foto-produto.svg" alt="foto-produto">
+                        <div id="grid-nome-valor">
+                            <p id="nome-produto">T-SHIRT FUTURE OF FASHION</p>
+                            <div id="grid-valor-botao">
+                                <p>10,00$</p>
+                                <div id="grid-botao">
+                                    <button id="remove">delete</button>
+                                    <button id="botaoMenos">-</button>
+                                    <p id="numero">1</p>
+                                    <button id="botaoMais">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <p>TOTAL</p>
+                <div>
+                    <div id="total">
+                        <div id="grid-nome-valor-total">
+                            <p id="texto-menor">T-SHIRT FUTURE OF FASHION</p>
+                            <div id="grid-valor"><p id="valor-produto">10</p><p>.00$</p></div>
+                        </div>
+                        <div id="grid-valor-total">
+                            <p id="texto-menor">TOTAL:</p>
+                            <div><p>total: <p id="valor-total">10</p>.00$</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="buttons">
+            <a href="index.html"><button>Continue Shooping</button></a>
+            <a href="delivery.html"><button>Delivery</button></a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+    
+    
+    <script src="/script-js/bootstrap.min.js"></script>
+    <script src="/script-js/popper.min.js"></script>
+    <script src="/script-js/bootstrap.js"></script>
+    <script src="/script-js/script.js"></script>
+</body>
+</html>

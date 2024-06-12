@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-css/bootstrap.css">
+    <link rel="stylesheet" href="produto.css">
+    <title>GreenMode Official</title>
+</head>
+<body>
+  <!--nav-->
+    <header id="navbar">
+      <section id="icones">
+      <!--inicio menu-->
+        <button class="btn btn-prima ry" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="menu-preta" src="/img/tela-do-produto/menu-preto.svg" alt="menu-preta"></button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <!--links das telas-->
+            <div class="btn-menu-preto">
+              <a href="clothes.html"><h4>Clothes</h4></a>
+              <a href="shoes.html"><h4>Shoes</h4></a> 
+              <a href="acessories.html"><h4>Acessories</h4></a> 
+            </div>
+          </div>
+        </div> 
+      <!--fim menu-->
+        <div id="nav-grid">
+          <a href="index.html"><img id="logo-preta" src="/img/tela-do-produto/logo-preta.svg" alt="logo-preta"></a>
+          <img id="nome-logo-preta-2" src="/img/tela-do-produto/nome-logo-preta2.svg" alt="nome-logo-preta-2"> 
+          <div id="perfil">
+            <!--botao carrinho-->
+            <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img id="shopping-cart-preta" src="/img/tela-do-produto/carrinho-preto.svg" alt="shopping-cart-preta"></button>
+            <!--fim do botao carrinho-->    
+            <img id="user-preta" src="/img/tela-do-produto/user-preto.svg" alt="user-preta">
+          </div>
+        </div>      
+      </section>    
+      <section id="search">
+        <div id="barra-de-buscar">
+          <input id="txt-buscar" type="text" placeholder="Buscar..."/>
+          <img  id="btn-buscar" src="/img/tela-do-produto/search-preta.svg" alt="Buscar"/>
+        </div>
+      </section>
+    </header>
+  <!--fim da header-->
+  <!--titulo da pagina-->
+    <div class="container1">
+        <a href="javascript:history.back()"><img class="botao-voltar" src="/img/tela-do-produto/botao-voltar.svg" alt="botao-voltar"></a>
+        <p>Product infos</p>
+        <p> </p>
+    </div>
+    <div class="container2">
+      <img class="pic-prod" src="/img/tela-do-produto/clothes-modelo1.svg" alt="vestido-flores">
+      <div class="container3">
+        <div id="titulo-prod1"><p>Dressing Flowers</p></div>
+        <p>10,00$</p>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Size
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">P</button></li>
+            <li><button class="dropdown-item" type="button">M</button></li>
+            <li><button class="dropdown-item" type="button">G</button></li>
+          </ul>
+        </div>
+        <button class="btn btn-primary" id="add" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add</button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Bag</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="produto">
+              <img id="foto-produto" src="/img/tela-do-produto/foto-produto.svg" alt="foto-produto">
+              <div id="grid-nome-valor">
+                <p id="nome-produto">T-SHIRT FUTURE OF FASHION</p>
+                <div id="grid-valor"><p><p id="valor-produto">10</p>.00$</p></div>
+                <div id="grid-valor-botao">
+                  <div id="grid-botao">
+                    <button id="remove">delete</button>
+                    <div class="add-produto">
+                      <button id="botaoMenos">-</button>
+                      <p id="numero">1</p>
+                      <button id="botaoMais">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="total">
+              <div><p>total: <p id="valor-total">0</p>.00$</p></div>
+              <a href="carrinho.html"><button class="btn btn-primary" id="adicionar">Continue to Basket</button></a>
+            </div>
+          </div>
+        </div>
+        <p id="recycled">100% RECYCLED</p>
+      </div>
+    </div>
+    <div id="width1000px">
+    <div><p id="publi">Maybe you like these:</p></div>
+
+  <!--carrossel-->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/tela-do-produto/foto-1-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/tela-do-produto/foto-2-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/tela-do-produto/foto-3-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="...">
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--carrossel-->  
+</div>
+<!--footer-->  
+<footer class="footer">
+  <div class="footer__icons">
+      <div class="svg_container"><img class="svg" src="/img/tela-do-produto/facebook-icon.svg" alt="Facebook"></div>
+      <div class="svg_container"><img class="svg" src="/img/tela-do-produto/instagram-icon.svg" alt="Instagram"></div>
+      <div class="svg_container"><img class="svg" src="/img/tela-do-produto/twitter-icon.svg" alt="Twitter"></div>
+      <div class="svg_container"><img class="svg" src="/img/tela-do-produto/youtube-icon.svg" alt="Youtube"></div>
+  </div>
+  <div class="footer__container">
+    <div class="footer__row">
+        <ul class="column">
+            <li><a href="">Self Description</a></li>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Prepaid Card</a></li>
+            <button class="footer__serviceCode">Service Code</button>
+        </ul>
+        <ul class="column">
+            <li><a href="">Press</a></li>
+            <li><a href="">Relationship With Investors</a></li>
+            <li><a href="">Careers</a></li>
+        </ul>
+        <ul class="column">
+            <li><a href="">Terms of Use</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Legal Notices</a></li>
+        </ul>
+        <ul class="column">
+            <li><a href="">Cookie Preferences</a></li>
+            <li><a href="">Corporate Information</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</div>
+<span class="footer__trademark">© 2020-2024 GreenMode, Inc.</span>
+</footer>
+<!--footer-->  
+
+    <script src="/script-js/bootstrap.min.js"></script>
+    <script src="/script-js/popper.min.js"></script>
+    <script src="/script-js/bootstrap.js"></script>
+    <script src="/script-js/script.js"></script> 
+  
+</body>
+</html> 

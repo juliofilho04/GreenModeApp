@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - GREENMODE</title>
+</head>
+<body>
+    <header id="header">
+        <section id="icones">
+            <!-- menu hamburguer -->
+            <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="menu-branco" src="/img/home/menu-branco.svg" alt="menu-branco"></button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="btn-menu-preto">
+                        <a href="clothes.html"><h4 id="h4">Clothes</h4></a>
+                        <a href="shoes.html"><h4 id="h4">Shoes</h4></a> 
+                        <a href="acessories.html"><h4 id="h4">Acessories</h4></a> 
+                    </div>
+                </div>
+            </div>
+            <!-- término menu hamburguer -->
+            <div id="nav-grid">
+                 <div id="perfil">
+                    <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><img id="shopping-cart-branco" src="/img/home/shopping-cart-branco.svg" alt="shopping-cart-branco"></button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Bag</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div id="produto">
+                                    <img id="foto-produto" src="/img/home/foto-produto.svg" alt="foto-produto">
+                                    <div id="grid-nome-valor">
+                                        <p id="nome-produto">T-SHIRT FUTURE OF FASHION</p>
+                                        <p id="valor-produto">00,00$</p>
+                                        <div id="grid-valor-botao">
+                                            <div id="grid-botao">
+                                                <button>delete</button>
+                                                <div class="add-produto">
+                                                    <button id="botaoMenos">-</button>
+                                                    <p id="numero">1</p>
+                                                    <button id="botaoMais">+</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="total">
+                                    <p>total: 0,00</p>
+                                    <a href="carrinho.html"><button class="btn btn-primary" id="adicionar">Continue to Basket</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    <img id="user-branco" src="/img/home/user-branco.svg" alt="user-branco">
+                </div>
+            </div>
+        </section>
+        <div id="logo-search">
+            <div id="logo">
+                <img id="logo-branca" src="/img/home/logo-branca.svg" alt="">
+                <img id="nome-logo-branca-2" src="/img/home/nome-logo-branca-2.svg" alt="">
+            </div>
+            
+            <section id="search">
+                <div id="barra-de-buscar">
+                    <input id="txt-buscar" type="text" placeholder="Buscar..."/>
+                    <img  id="btn-buscar" src="/img/home/search-branco.svg" alt="Buscar"/>
+                </div>
+            </section>
+        </div>
+        <div id="seta">
+            <img id="seta-baixo-branca" src="/img/home/seta-baixo-branca.svg" alt="seta-baixo-branca">
+        </div>
+    </header>
+    <!--fim da header-->
+    <section id="categorias">
+        <p id="categorias-nomes" >Clothes</p>
+        <p id="categorias-nomes" >Shoes</p>
+        <p id="categorias-nomes" >Accessories</p>
+        <a href="clothes.html"><img id="categorias-fotos" src="/img/home/categorias-clothes.svg" alt="categorias-clothes"></a>
+        <a href="shoes.html"><img id="categorias-fotos" src="/img/home/categorias-shoes.svg" alt="categorias-shoes"></a>
+        <a href="acessories.html"><img id="categorias-fotos" src="/img/home/categorias-accessories.svg" alt="categorias-accessories"></a>
+    </section>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="produto.html"><img src="/img/home/foto-1-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="produto.html"><img src="/img/home/foto-2-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="produto.html"><img src="/img/home/foto-3-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+      <footer class="footer">
+        <div class="footer__icons">
+            <div class="svg_container"><a href="https://web.facebook.com/?_rdc=1&_rdr"><img class="svg" src="/img/acessories/facebook-icon.svg" alt="Facebook"></a></div>
+            <div class="svg_container"><a href="https://www.instagram.com/"><img class="svg" src="/img/acessories/instagram-icon.svg" alt="Instagram"></a></div>
+            <div class="svg_container"><a href="https://x.com/home"><img class="svg" src="/img/acessories/twitter-icon.svg" alt="Twitter"></a></div>
+            <div class="svg_container"><a href="https://www.youtube.com/"><img class="svg" src="/img/acessories/youtube-icon.svg" alt="Youtube"></a></div>
+        </div>
+        <div class="footer__container">
+            <div class="footer__row">
+                <ul class="column">
+                    <li><a href="">Self Description</a></li>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Prepaid Card</a></li>
+                    <button class="footer__serviceCode">Service Code</button>
+                </ul>
+                <ul class="column">
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Relationship With Investors</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+                <ul class="column">
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Legal Notices</a></li>
+                </ul>
+                <ul class="column">
+                    <li><a href="">Cookie Preferences</a></li>
+                    <li><a href="">Corporate Information</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__trademark">© 2020-2024 GreenMode, Inc.</span>
+      </footer>
+
+    <script src="/script-js/bootstrap.min.js"></script>
+    <script src="/script-js/popper.min.js"></script>
+    <script src="/script-js/bootstrap.js"></script>
+    <script src="/script-js/script.js"></script>
+</body>
+</html>

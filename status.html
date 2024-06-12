@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-css/bootstrap.css">
+    <link rel="stylesheet" href="status.css">
+    <title>Status - GREENMODE</title>
+</head>
+<body>
+
+    <header id="navbar">
+        <section id="icones">
+
+            <!-- menu hamburguer -->
+          <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="menu-preta" src="/img/status/menu-preto.svg" alt="menu-preta"></button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <div class="btn-menu-preto">
+                      <a href="clothes.html"><h4 id="h4">Clothes</h4></a>
+                      <a href="shoes.html"><h4 id="h4">Shoes</h4></a> 
+                      <a href="acessories.html"><h4 id="h4">Acessories</h4></a> 
+                  </div>
+              </div>
+          </div>
+          <!-- término menu hamburguer -->
+
+            <div id="nav-grid">
+                <a href="index.html"><img id="logo-preta" src="/img/status/logo-preta.svg" alt="logo-preta"></a>
+                <img id="nome-logo-preta-2" src="/img/status/nome-logo-preta2.svg" alt="nome-logo-preta-2"> 
+                <img id="user-preta" src="/img/status/user-preto.svg" alt="user-preta">
+            </div>
+        </section>
+    </header>
+    <section id="conteudo">
+        <div id="status">
+            <a href="javascript:history.back()"><img class="botao-voltar" src="/img/carrinho/botao-voltar.svg" alt="botao-voltar"></a>
+            <h2>Status</h2>
+            <p></p>
+        </div>
+        <ol class="progtrckr" data-progtrckr-steps="5">
+            <li class="progtrckr-done">Order Processing</li>
+            <li class="progtrckr-done">Pre-Production</li>
+            <li class="progtrckr-done">In Production</li>
+            <li class="progtrckr-todo">Shipped</li>
+            <li class="progtrckr-todo">Delivered</li>
+        </ol>
+        <div id="info-produtos">
+            <div>
+                <p>ALL ITENS</p>
+                <div id="produto">
+                    <img id="foto-produto" src="/img/status/foto-produto.svg" alt="foto-produto">
+                    <div id="grid-nome-valor">
+                        <p id="nome-produto">T-SHIRT FUTURE OF FASHION</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>DELIVERY ADDRESS</p>
+                <div id="info">
+                    <div id="grid-info-address">
+                        <div>
+                            <p>Recipient's Full Name</p>
+                            <p>Street Address</p>
+                        </div>
+                        <div>
+                            <p>Zip Code</p>
+                            <p>City.State</p>
+                        </div>
+                    </div>
+                    <a href="delivery.html"><img id="edit-icon" src="/img/status/edit-icon.svg" alt="edit-icon"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="publi2">
+        <h5>Are you still looking for something?</h5>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="produto.html"><img src="/img/home/foto-1-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="produto.html"><img src="/img/home/foto-2-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href="produto.html"><img src="/img/home/foto-3-carrossel.svg" id="foto-carrosel" class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <script src="/script-js/bootstrap.min.js"></script>
+    <script src="/script-js/popper.min.js"></script>
+    <script src="/script-js/bootstrap.js"></script>
+    <script src="/script-js/script.js"></script>
+</body>
+</html>

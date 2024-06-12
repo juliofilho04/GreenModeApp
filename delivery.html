@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-css/bootstrap.css">
+    <link rel="stylesheet" href="delivery.css">
+    <title>Delivery - GREENMODE</title>
+</head>
+<body>
+
+    <header id="navbar">
+        <section id="icones">
+          <!-- menu hamburguer -->
+          <button style="background-color: transparent;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img id="menu-preta" src="/img/delivery/menu-preto.svg" alt="menu-preta"></button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <div class="btn-menu-preto">
+                      <a href="clothes.html"><h4 id="h4">Clothes</h4></a>
+                      <a href="shoes.html"><h4 id="h4">Shoes</h4></a> 
+                      <a href="acessories.html"><h4 id="h4">Acessories</h4></a> 
+                  </div>
+              </div>
+          </div>
+          <!-- término menu hamburguer -->
+            <div id="nav-grid">
+                <a href="index.html"><img id="logo-preta" src="/img/delivery/logo-preta.svg" alt="logo-preta"></a>
+                <img id="nome-logo-preta-2" src="/img/delivery/nome-logo-preta2.svg" alt="nome-logo-preta-2"> 
+                <img id="user-preta" src="/img/delivery/user-preto.svg" alt="user-preta">
+            </div>
+        </section>
+    </header>
+    <section id="conteudo">
+        <div id="localizacao">
+            <p>Basket</p>
+            <hr class="line"></hr>
+            <strong>Delivery</strong>
+            <hr class="line"></hr>
+            <p>Payment</p>
+        </div>
+        <a href="javascript:history.back()"><img class="botao-voltar" src="/img/carrinho/botao-voltar.svg" alt="botao-voltar"></a>
+        <div id="info-produtos">
+            <div>
+              <p>ALL ITENS</p>
+                <div id="produto">
+                    <img id="foto-produto" src="/img/delivery/foto-produto.svg" alt="foto-produto">
+                    <div id="grid-nome-valor">
+                        <p id="nome-produto">T-SHIRT FUTURE OF FASHION</p>
+                        <p>10,00$</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+              <p>DELIVERY ADDRESS</p>
+                  <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label">State</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>PE</option>
+                        <option>PB</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationCustom05" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Add address</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+
+        <div id="button">
+            <a href="payment.html"><button>Payment</button></a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+    
+    
+    <script src="/script-js/bootstrap.min.js"></script>
+    <script src="/script-js/popper.min.js"></script>
+    <script src="/script-js/bootstrap.js"></script>
+    <script src="/script-js/script.js"></script>
+</body>
+</html>

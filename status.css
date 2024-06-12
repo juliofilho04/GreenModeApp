@@ -1,0 +1,355 @@
+* {
+    background-color: #A2BE9F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+body {
+    background-color: #A2BE9F;
+}
+
+#icones {
+    padding-top: 30px;
+    background-color: transparent;
+    display: flex;
+}
+
+#nav-grid {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+/* menu hamburguer */
+
+#icones .btn.btn-primary {
+    background-color: transparent;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+
+h4 {
+    margin: 0px;
+    padding: 10px;
+}
+
+/*final menu hamburguer*/
+
+#menu-preta {
+    margin-left: 10px;
+    background-color: transparent;
+    max-width: 35px;
+}
+
+#logo-preta {
+    background-color: transparent;
+    max-width: 75px;
+}
+
+#nome-logo-preta-2 {
+    background-color: transparent;
+    max-width: 500px;
+}
+
+#user-preta {
+    background-color: transparent;
+    max-width: 35px;
+}
+
+.botao-voltar {
+    width: 20px;
+    height: 20px;
+}
+
+#status {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 1000px
+}
+
+#localizacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#localizacao p, strong {
+    font-size: 1.2rem;
+}
+
+.line {
+    border-top: 1px solid black;
+}
+
+hr {
+    height: 1px;
+    width: 200px; 
+}
+
+#info-produtos {
+    padding-top: 20px;
+    gap: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#produto {
+    border-radius: 20px;
+    background-color: #5DA253;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+#foto-produto {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 30px;
+}
+
+#grid-nome-valor {
+    background-color: transparent;
+    display: grid;
+    align-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#grid-nome-valor p {
+    background-color: transparent;
+}
+
+#nome-produto {
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+ol.progtrckr {
+
+    margin: 0;
+    padding: 20px 0px;
+    list-style-type: none;
+}
+
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+ol.progtrckr[data-progtrckr-steps="2"] li { width: 49%; }
+ol.progtrckr[data-progtrckr-steps="3"] li { width: 33%; }
+ol.progtrckr[data-progtrckr-steps="4"] li { width: 24%; }
+ol.progtrckr[data-progtrckr-steps="5"] li { width: 19%; }
+ol.progtrckr[data-progtrckr-steps="6"] li { width: 16%; }
+ol.progtrckr[data-progtrckr-steps="7"] li { width: 14%; }
+ol.progtrckr[data-progtrckr-steps="8"] li { width: 12%; }
+ol.progtrckr[data-progtrckr-steps="9"] li { width: 11%; }
+
+ol.progtrckr li.progtrckr-done {
+    color: black;
+    border-bottom: 4px solid yellowgreen;
+}
+ol.progtrckr li.progtrckr-todo {
+    color: black; 
+    border-bottom: 4px solid silver;
+}
+
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -2.5em;
+    float: left;
+    left: 50%;
+    line-height: 1em;
+}
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: yellowgreen;
+    height: 2.2em;
+    width: 2.2em;
+    line-height: 2.2em;
+    border: none;
+    border-radius: 2.2em;
+}
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: silver;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 2.2em;
+    bottom: -1.2em;
+}
+
+#info {
+    border-radius: 20px;
+    background-color: #A9A9A9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#info a {
+    background-color: transparent;
+}
+
+#grid-info-cartao {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grid-info-cartao div {
+    background-color: transparent;
+}
+
+#grid-info-address {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grid-info-address div {
+    display: grid;
+    justify-content: center;
+    background-color: transparent;
+}
+
+div p {
+    background-color: transparent;
+}
+
+#edit-icon {
+    background-color: transparent;
+    max-width: 30px;
+}
+
+#fotos-cartao {
+    background-color: transparent;
+}
+
+#fotos-cartao img {
+    max-width: 30px;
+    background-color: transparent;
+}
+
+#nome-cartao {
+    background-color: transparent;
+}
+
+#button{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border: 0px;
+    padding-top: 20px;
+}
+
+#button button {
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.publi2{
+    padding-top: 20px;
+    bottom: 0;
+    text-align: center;
+}
+
+/*carrossel de produtos*/
+
+#carouselExample {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item.active {
+    padding-left: 250px;
+}
+
+.carousel-item {
+    padding-left: 250px;
+}
+
+#foto-carrosel {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/*fim carrosel de produtos*/
+
+#footer {
+    background-color: #D9D9D9;
+    margin-top: 70px;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    #logo-preta {
+        display: none;
+    }
+
+    #nome-logo-preta-2 {
+        width: 250px;
+    }
+
+    #conteudo {
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    #info-produtos {
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }
+
+    ol.progtrckr {
+        margin: 0 auto;
+        max-width: 525px;
+    }
+    
+    ol.progtrckr[data-progtrckr-steps="5"] li { width: 18%;}
+
+    ol.progtrckr li.progtrckr-todo:before {
+        bottom: -0.6em;
+    }
+
+    #carouselExample {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .carousel-item.active, .carousel-item {
+        padding-left: 100px;
+    }
+
+    #foto-carrosel {
+        max-width: 300px;
+    }
+}

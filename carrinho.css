@@ -1,0 +1,251 @@
+* {
+    background-color: #A2BE9F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+body {
+    background-color: #A2BE9F;
+}
+
+#icones {
+    padding-top: 30px;
+    background-color: transparent;
+    display: flex;
+}
+
+#nav-grid {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+/* menu hamburguer */
+
+.btn.btn-primary {
+    background-color: transparent;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+
+h4 {
+    margin: 0px;
+    padding: 10px;
+}
+
+#shopping-cart-branco {
+    background-color: transparent;
+    max-width: 35px;
+}
+
+/*final menu hamburguer*/
+
+#menu-preta {
+    margin-left: 10px;
+    background-color: transparent;
+    max-width: 35px;
+}
+
+#logo-preta {
+    background-color: transparent;
+    max-width: 75px;
+}
+
+#nome-logo-preta-2 {
+    background-color: transparent;
+    max-width: 500px;
+}
+
+#user-preta {
+    background-color: transparent;
+    max-width: 35px;
+}
+
+.botao-voltar {
+    width: 20px;
+    height: 20px;
+}
+
+#conteudo {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 1000px
+}
+
+#localizacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#localizacao p, strong {
+    font-size: 1.2rem;
+}
+
+.line {
+    border-top: 1px solid black;
+}
+
+hr {
+    height: 1px;
+    width: 200px; 
+}
+
+#info-produtos {
+    padding-top: 20px;
+    gap: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#produto {
+    border-radius: 20px;
+    background-color: #5DA253;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+#foto-produto {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 30px;
+}
+
+#grid-nome-valor {
+    background-color: transparent;
+    display: grid;
+    align-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#nome-produto {
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+#grid-valor-botao {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+#grid-valor-botao p {
+    background-color: transparent;
+}
+
+#grid-botao {
+    background-color: transparent;
+    display: flex;
+    gap: 5px;
+}
+
+#grid-botao button {
+    text-decoration: none;
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+    align-self: flex-start;
+}
+
+#total {
+    border-radius: 20px;
+    background-color: #A9A9A9;
+    display: grid;
+}
+
+#grid-nome-valor-total {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+#grid-nome-valor-total p{
+    background-color: transparent;
+}
+
+#texto-menor {
+    font-size: 0.8rem;
+}
+
+#grid-valor-total {
+    background-color: #525252;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#grid-valor-total p {
+    background-color: transparent;
+    padding: 20px 0px 20px 0px;
+    margin: 0px;
+}
+
+#grid-valor-total div {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+#grid-valor {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+}
+
+#valor-produto {
+    background-color: transparent;
+}
+
+#buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border: 0px;
+    padding-top: 20px;
+}
+
+#buttons button {
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#footer {
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    height: 50px;
+    bottom: 0;
+    width: 100%;    
+}
+
+@media (max-width: 500px) {
+    #logo-preta {
+        display: none;
+    }
+
+    #nome-logo-preta-2 {
+        width: 250px;
+    }
+
+    #conteudo {
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    #info-produtos {
+        grid-template-columns: 1fr;
+    }
+}
